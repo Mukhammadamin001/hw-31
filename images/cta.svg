@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="494" height="394" viewBox="0 0 494 394" fill="none">
+  <!-- outlined burst -->
+  <path d="M349 6l10 44 30-34-6 45 42-18-26 37 46 2-41 21 41 21-46 2 26 37-42-18 6 45-30-34-10 44-10-44-30 34 6-45-42 18 26-37-46-2 41-21-41-21 46-2-26-37 42 18-6-45 30 34z" fill="#fff" stroke="#191A23" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- grey burst -->
+  <path d="M392 182l9 33 25-24-8 33 33-10-24 25 33 9-33 9 24 25-33-10 8 33-25-24-9 33-9-33-25 24 8-33-33 10 24-25-33-9 33-9-24-25 33 10-8-33 25 24z" fill="#CFCFCF"/>
+  <!-- ring behind -->
+  <path d="M104 207c-6-30 64-62 156-70s170 14 176 44" stroke="#191A23" stroke-width="1.5"/>
+  <!-- smiley -->
+  <circle cx="261" cy="182" r="62" fill="#191A23"/>
+  <ellipse cx="240" cy="168" rx="10" ry="15" fill="#fff"/>
+  <ellipse cx="280" cy="168" rx="10" ry="15" fill="#fff"/>
+  <!-- ring front -->
+  <path d="M436 181c6 30-64 62-156 70s-170-14-176-44" stroke="#191A23" stroke-width="1.5"/>
+  <path d="M432 197c4 24-60 50-148 57s-158-9-166-34" stroke="#191A23" stroke-width="1.2" stroke-dasharray="3 5"/>
+  <!-- green sparkle -->
+  <path d="M243 276c6 38 18 50 56 56-38 6-50 18-56 56-6-38-18-50-56-56 38-6 50-18 56-56Z" fill="#B9FF66"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="515" viewBox="0 0 600 515" fill="none">
+  <!-- orbit rings -->
+  <g stroke="#191A23" stroke-width="1.5">
+    <ellipse cx="300" cy="300" rx="285" ry="74" transform="rotate(22 300 300)"/>
+    <ellipse cx="300" cy="300" rx="268" ry="60" transform="rotate(16 300 300)"/>
+    <ellipse cx="300" cy="300" rx="252" ry="88" transform="rotate(26 300 300)" stroke-dasharray="2 6"/>
+  </g>
+
+  <!-- megaphone -->
+  <g transform="translate(222 240) rotate(-34)" stroke="#191A23" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M58 22 22 146" stroke-width="24" stroke-linecap="round"/>
+    <path d="M50 52 30 120" stroke="#B9FF66" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-48" y="-21" width="34" height="42" rx="7" fill="#191A23"/>
+    <rect x="-16" y="-31" width="52" height="62" rx="5" fill="#B9FF66"/>
+    <path d="M36 -31 182 -96V96L36 31Z" fill="#fff"/>
+    <path d="M36 -31 74 -48V48L36 31Z" fill="#191A23"/>
+    <g stroke-width="1.2">
+      <path d="M90 -55V55M106 -62V62M122 -69V69M138 -76V76M154 -83V83M168 -89V89"/>
+    </g>
+    <ellipse cx="182" cy="0" rx="24" ry="96" fill="#fff"/>
+    <ellipse cx="186" cy="0" rx="15" ry="76" fill="#F3F3F3"/>
+    <ellipse cx="190" cy="0" rx="7" ry="34" fill="#191A23"/>
+    <path d="M-2 -31V31M14 -31V31" stroke-width="1.5"/>
+  </g>
+
+  <!-- floating icons -->
+  <circle cx="466" cy="44" r="34" fill="#191A23"/>
+  <path d="M466 62s-18-10.5-18-22.5c0-6 4.6-10 9.8-10 3.4 0 6.4 1.9 8.2 4.8 1.8-2.9 4.8-4.8 8.2-4.8 5.2 0 9.8 4 9.8 10C484 51.5 466 62 466 62Z" fill="#fff"/>
+
+  <circle cx="562" cy="58" r="29" fill="#B9FF66" stroke="#191A23" stroke-width="1.5"/>
+  <g fill="#191A23"><circle cx="572" cy="47" r="6"/><circle cx="552" cy="58" r="6"/><circle cx="572" cy="69" r="6"/></g>
+  <path d="m552 58 20-11m-20 11 20 11" stroke="#191A23" stroke-width="3"/>
+
+  <circle cx="552" cy="158" r="33" fill="#191A23"/>
+  <circle cx="552" cy="158" r="18" fill="#fff"/>
+  <path d="M547 149v18l14-9z" fill="#191A23"/>
+
+  <circle cx="538" cy="262" r="34" fill="#B9FF66" stroke="#191A23" stroke-width="1.5"/>
+  <path d="M538 285s-15-14.5-15-26a15 15 0 0 1 30 0c0 11.5-15 26-15 26Z" fill="#191A23"/>
+  <circle cx="538" cy="259" r="6" fill="#B9FF66"/>
+
+  <!-- sparkles & dots -->
+  <circle cx="86" cy="58" r="16" fill="#191A23"/>
+  <circle cx="136" cy="104" r="9" fill="#B9FF66" stroke="#191A23" stroke-width="1.5"/>
+  <path d="M112 318c4 30 14 40 44 44-30 4-40 14-44 44-4-30-14-40-44-44 30-4 40-14 44-44Z" fill="#191A23"/>
+  <path d="M318 420c2.4 15 7 19.6 22 22-15 2.4-19.6 7-22 22-2.4-15-7-19.6-22-22 15-2.4 19.6-7 22-22Z" fill="#191A23"/>
+  <circle cx="434" cy="434" r="7" fill="#B9FF66" stroke="#191A23" stroke-width="1.5"/>
+  <path d="M20 200c1.6 9.5 4.5 12.4 14 14-9.5 1.6-12.4 4.5-14 14-1.6-9.5-4.5-12.4-14-14 9.5-1.6 12.4-4.5 14-14Z" fill="#B9FF66" stroke="#191A23" stroke-width="1.2"/>
+</svg>
