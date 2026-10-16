@@ -32,4 +32,4 @@ with the same name (e.g. `images/hero.svg`, `images/services/seo.svg`, `images/t
 | Folder | Page |
 | --- | --- |
 | `/` (this folder) | Positivus — digital marketing agency landing |
-| [`cupcakes/`](cupcakes/) | «Сладкая сказка» — cupcake shop landing (Figma «Макет Landing Page для Figma (шаблон)»), see [`cupcakes/README.md`](cupcakes/README.md) |
+| [`cupcakes/`](cupcakes/) | «Сладкий сундук» — cupcake shop landing (Figma «Макет Landing Page для Figma (шаблон)»), see [`cupcakes/README.md`](cupcakes/README.md) |
