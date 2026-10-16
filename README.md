@@ -26,3 +26,10 @@ images/           SVG illustrations, team photos and partner logos
 The illustrations in `images/` are hand-drawn SVG recreations sized to the Figma frames.
 To swap in the originals, select the layer in Figma → **Export → SVG** and save it over the file
 with the same name (e.g. `images/hero.svg`, `images/services/seo.svg`, `images/team/john-smith.svg`).
+
+## Other pages in this repo
+
+| Folder | Page |
+| --- | --- |
+| `/` (this folder) | Positivus — digital marketing agency landing |
+| [`cupcakes/`](cupcakes/) | «Сладкая сказка» — cupcake shop landing (Figma «Макет Landing Page для Figma (шаблон)»), see [`cupcakes/README.md`](cupcakes/README.md) |
