@@ -246,12 +246,23 @@ footer { position: relative; overflow: hidden; }
   color: #e7eefc;
 }
 
+.hero__art {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  width: 1920px;
+  max-width: none;
+  transform: translateX(-50%);
+}
+
+/* tablet/mobile replacements for the desktop art layer */
+.hero__image,
+.hero__cloud { display: none; }
+
 .hero__image {
   position: absolute;
-  top: 150px;
-  left: calc(50% + 20px);
   z-index: 1;
-  width: 940px;
   max-width: none;
 }
 
@@ -267,7 +278,6 @@ footer { position: relative; overflow: hidden; }
 
 .hero__berry--left { top: 255px; left: calc(50% - 962px); width: 135px; }
 .hero__berry--right { top: 145px; left: calc(50% + 840px); width: 135px; }
-.hero__berry--stand { top: 935px; left: calc(50% + 565px); z-index: 3; width: 140px; }
 .hero__leaf { top: 1010px; left: calc(50% - 955px); z-index: 3; width: 245px; transform: rotate(-12deg); }
 
 /* =========================================================
@@ -801,8 +811,9 @@ footer { position: relative; overflow: hidden; }
 @media (max-width: 1229px) {
   :root { --container: calc(100% - 60px); }
 
-  .hero__image { top: 420px; left: auto; right: -60px; width: 520px; }
-  .hero__berry--stand { top: 860px; left: auto; right: 40px; width: 110px; }
+  .hero__art { display: none; }
+  .hero__image, .hero__cloud { display: block; }
+  .hero__image { top: 400px; right: -40px; width: 540px; }
   .about__content { margin-left: 0; }
   .card__text br { display: none; }
   .custom__content { margin-left: auto; width: 470px; }
@@ -823,7 +834,6 @@ footer { position: relative; overflow: hidden; }
   .hero__cloud { width: 1400px; }
   .hero__content { padding-top: 120px; }
   .hero__title { font-size: 38px; line-height: 48px; }
-  .hero__berry--stand { top: auto; bottom: 70px; right: 30px; }
   .hero__leaf { top: auto; bottom: 20px; width: 180px; left: -40px; }
   .cloud { width: 1400px; }
   .header__address { display: none; }
@@ -888,7 +898,6 @@ footer { position: relative; overflow: hidden; }
   .hero__note br { display: none; }
   .hero__image { width: 420px; margin-top: 20px; }
   .hero__berry--left, .hero__berry--right, .hero__leaf { display: none; }
-  .hero__berry--stand { display: none; }
 
   .catalog__list { grid-template-columns: 1fr; gap: 20px; }
   .card__body { padding: 30px 24px 32px; }
